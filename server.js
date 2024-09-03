@@ -13,7 +13,7 @@ const app=express();
 const port=process.env.PORT || 5000;
 
 app.use(cors({
-  origin: 'https://ai-assesment-thefstack.netlify.app/',
+  origin: 'https://ai-assesment-thefstack.netlify.app',
 }));
 app.use(bodyParser.json());
 
